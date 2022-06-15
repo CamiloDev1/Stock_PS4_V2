@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    background-color: aliceblue;
+    font-family: 'Bebas Neue', 'cursive';
+}
+
+.button{
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 28px;
+}
+
+.page-nav{    
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    position: relative;
+}
+
+.page-nav h1{
+    margin: 20px;
+}
+
+.button-checkout{
+    
+    border: none;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid #5acb6e; 
+    transition-duration: 0.4s;
+    position: top;
+    left: 50px;
+    bottom: 15px;
+}
+
+.page-contend{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.product-container{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 2px 16px;
+    position: relative;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.product-container img{
+    width: 300px;
+}
+
+.product-container h2 {
+    margin-bottom: 0px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.product-container h3{
+    text-align: center;
+}
+
+
+
+.button-add{
+    border: none;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border: 2px solid #5071db; 
+    transition-duration: 0.4s;
+    position: absolute;
+    left: 180px;
+    bottom: 10px;
+  }
+  
+  .button-add.disabled{
+    border: none;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border: 2px solid #46484d; 
+    transition-duration: 0.4s;
+    position: absolute;
+    left: 180px;
+    bottom: 10px;
+  }
+
+  .button-add:hover {
+    background-color: #5071db; 
+    color: white;
+  }
+
+  .button-add.disabled:hover {
+    background-color: #46484d; 
+    color: white;
+  }
+  .button-checkout:hover {
+    background-color: #5acb6e; 
+    color: white;
+  }
